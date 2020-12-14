@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" 
+  targetNamespace="http://www.driver-repository.eu/namespace/dri" 
+  xmlns:dri="http://www.driver-repository.eu/namespace/dri" >
+  
+  <xs:annotation>
+    <xs:documentation>This schema defines elements in the dri namespace, which are usually expected to only appear in the header section of records.</xs:documentation>
+  </xs:annotation>
+  
+  <xs:element name="objIdentifier" type="xs:string"/>
+  <xs:element name="repositoryId" type="xs:string"/>
+  <xs:element name="dateOfCollection" type="xs:dateTime"/>
+  
+</xs:schema>

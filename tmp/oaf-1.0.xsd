@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+  xmlns:dri="http://www.driver-repository.eu/namespace/dri" xmlns="http://namespace.openaire.eu/oaf"
+  targetNamespace="http://namespace.openaire.eu/oaf">
+
+  <xs:annotation>
+    <xs:documentation>This schema describes the OpenAIRE+ entities.</xs:documentation>
+  </xs:annotation>
+
+  <xs:include schemaLocation="oaf-result-1.0.xsd"/>
+  <xs:include schemaLocation="oaf-person-1.0.xsd"/>
+  <xs:include schemaLocation="oaf-org-1.0.xsd"/>
+  <xs:include schemaLocation="oaf-datasource-1.0.xsd"/>
+  <xs:include schemaLocation="oaf-project-1.0.xsd"/>
+
+  <xs:element name="entity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="result"/>
+          <xs:element ref="person"/>
+          <xs:element ref="organization"/>
+          <xs:element ref="datasource"/>
+          <xs:element ref="project"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	  <header>
+		    <query>(oaftype exact project) and (projectcode exact "777541")</query>
+				  <locale>en_US</locale>	
+					<size>10</size>
+			   <page>1</page>
+			   <total>1</total>
+							<fields>
+							</fields>
+	</header>
+	  <results>
+		<result xmlns:dri="http://www.driver-repository.eu/namespace/dri">
+	         <header xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	            <dri:objIdentifier>corda__h2020::70ea22400fd890c5033cb31642c4ae68</dri:objIdentifier>
+	            <dri:dateOfCollection>2018-03-12</dri:dateOfCollection>
+	            <dri:dateOfTransformation>2019-11-11</dri:dateOfTransformation>
+	            <counters>
+		           <counter_participation value="49"/>
+	               <counter_participation_collected value="2"/>
+	               <counter_participation_inferred value="47"/>
+		           </counters>
+	         </header>
+         <metadata>
+            <oaf:entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:oaf="http://namespace.openaire.eu/oaf"
+                        xsi:schemaLocation="http://namespace.openaire.eu/oaf https://www.openaire.eu/schema/1.0/oaf-1.0.xsd">
+		             <oaf:project>
+			               <startdate>2018-01-01</startdate>
+                  <contracttype classid="RIA" classname="Research and Innovation action"
+                                schemeid="ec:h2020toas"
+                                schemename="Horizon 2020 - Type of Actions"/>
+                  <contactfullname>CHATZOPOULOS, MICHAΙL</contactfullname>
+                  <code>777541</code>
+                  <oamandatepublications>true</oamandatepublications>
+                  <ecarticle29_3>true</ecarticle29_3>
+                  <enddate>2020-12-31</enddate>
+                  <subjects classid="ec:h2020topics" classname="Horizon 2020 Topics"
+                            schemeid="dnet:subject_classification_typologies"
+                            schemename="dnet:subject_classification_typologies">Data and Distributed Computing e-infrastructures for Open Science</subjects>
+                  <acronym>OpenAIRE-Advance</acronym>
+                  <title>OpenAIRE Advancing Open Scholarship</title>
+                  <contactemail>mike@di.uoa.gr</contactemail>
+                  <fundingtree>
+                     <funder>
+                        <id>ec__________::EC</id>
+                        <shortname>EC</shortname>
+                        <name>European Commission</name>
+                        <jurisdiction>EU</jurisdiction>
+                     </funder>
+                     <funding_level_1>
+                        <id>ec__________::EC::H2020::RIA</id>
+                        <description>Research and Innovation action</description>
+                        <name>RIA</name>
+                        <class>ec:h2020toas</class>
+                        <parent>
+                           <funding_level_0>
+                              <id>ec__________::EC::H2020</id>
+                              <name>H2020</name>
+                              <description>Horizon 2020 Framework Programme</description>
+                              <parent/>
+                              <class>ec:h2020fundings</class>
+                           </funding_level_0>
+                        </parent>
+                     </funding_level_1>
+                  </fundingtree>
+                  <callidentifier>H2020-EINFRA-2017</callidentifier>
+                  <websiteurl/>
+                  <keywords/>
+                  <duration/>
+                  <ecsc39/>
+                  <contactfax/>
+                  <contactphone/>
+                  <collectedfrom name="CORDA - COmmon Research DAta Warehouse - Horizon 2020"
+                                 id="openaire____::a55eb91348674d853191f4f4fd73d078"/>
+                  <originalId>corda__h2020::777541</originalId>
+                  <pid classid="" classname="" schemeid="" schemename=""/>
+                  <datainfo>
+                     <inferred>false</inferred>
+                     <deletedbyinference>false</deletedbyinference>
+                     <trust>0.9</trust>
+                     <inferenceprovenance/>
+                     <provenanceaction classid="sysimport:crosswalk:entityregistry" classname="Harvested"
+                                       schemeid="dnet:provenanceActions"
+                                       schemename="dnet:provenanceActions"/>
+                  </datainfo>
+		                <rels>
+		                   <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::611436496f59663cea9bc5c6b0a47c39</to>
+		                      <legalshortname>SDU</legalshortname>
+                        <websiteurl>http://www.sdu.dk/en/</websiteurl>
+                        <country classid="DK" classname="Denmark" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>University of Southern Denmark</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::52bd1e6b6f27ac505201322edd6bcea4</to>
+		                      <country classid="RS" classname="Serbia" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>Scientific Veterinary Institute "Novi Sad"</legalshortname>
+                        <websiteurl>http://niv.ns.ac.rs/?lang=en</websiteurl>
+                        <legalname>Scientific Veterinary Institute "Novi Sad"</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::5dc9bb3c37c2b677874b953789a7eedf</to>
+		                      <websiteurl>http://www.uni-lj.si/</websiteurl>
+                        <legalshortname>UL</legalshortname>
+                        <country classid="SI" classname="Slovenia" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>University of Ljubljana</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::5394e42b1badadf692be6af4f08f2c2c</to>
+		                      <legalshortname>COUPERIN</legalshortname>
+                        <websiteurl>http://www.couperin.org</websiteurl>
+                        <legalname>CONSORTIUM UNIVERSITAIRE DE PUBLICATIONS NUMERIQUES COUPERIN</legalname>
+                        <country classid="FR" classname="France" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::6a3434a15397eeae50e62931afd6e2da</to>
+		                      <websiteurl>https://www.unizahnklinik-wien.at/en/</websiteurl>
+                        <legalshortname>Universitätszahnklinik Wien</legalshortname>
+                        <country classid="AT" classname="Austria" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>Universitätszahnklinik Wien</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::4c8a3ebecfcf7321f411bc67a03d1a60</to>
+		                      <websiteurl>http://www.lu.lv/eng/</websiteurl>
+                        <legalshortname>LU</legalshortname>
+                        <country classid="LV" classname="Latvia" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>University of Latvia</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::3bb768fd6a8b0e0f8cc87e48a8227b74</to>
+		                      <websiteurl>http://www.math.bas.bg</websiteurl>
+                        <legalname>INSTITUTE OF MATHEMATICS AND INFORMATICS AT THE BULGARIAN ACADEMY OF SCIENCE</legalname>
+                        <legalshortname>IMI BAS</legalshortname>
+                        <country classid="BG" classname="Bulgaria" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::3a4ff9ea680aec31ad04a8d8018fbbba</to>
+		                      <legalshortname>İYTE</legalshortname>
+                        <websiteurl>http://www.iyte.edu.tr/</websiteurl>
+                        <country classid="TR" classname="Turkey" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>Izmir Institute of Technology</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::39cec69d02c9d214e82e876a713c97d0</to>
+		                      <websiteurl>http://www.elke.uoa.gr</websiteurl>
+                        <country classid="GR" classname="Greece" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>ETHNIKO KAI KAPODISTRIAKO PANEPISTIMIO ATHINON</legalname>
+                        <legalshortname>NKUA</legalshortname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::59b42aab7886c4ee2159e7ef0857bbeb</to>
+		                      <legalshortname>KNAW</legalshortname>
+                        <country classid="NL" classname="Netherlands" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>Royal Netherlands Academy of Arts and Sciences</legalname>
+                        <websiteurl>http://www.knaw.nl/nl</websiteurl>
+		                   </rel>
+                     <rel inferred="false" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">corda__h2020::b68296e148dfb86af1dccc9a0a9bd8bc</to>
+		                      <legalname>COAR E.V.</legalname>
+                        <websiteurl>http://coar-repositories.org</websiteurl>
+                        <country classid="DE" classname="Germany" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::00955d8f75c2e122d40cae5170840cdb</to>
+		                      <legalname>Universitetet i Oslo</legalname>
+                        <legalshortname>UiO</legalshortname>
+                        <websiteurl>http://www.uio.no/</websiteurl>
+                        <country classid="NO" classname="Norway" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+                     <rel inferred="false" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">corda__h2020::3067d97fffdad3ba4bfc264b8d500685</to>
+		                      <websiteurl>http://www.dariah.eu</websiteurl>
+                        <legalshortname>DARIAH ERIC</legalshortname>
+                        <country classid="FR" classname="France" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>DIGITAL RESEARCH INFRASTRUCTURE FOR THE ARTS AND HUMANITIES</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::02ac75af9332f7931d1bc8671a011210</to>
+		                      <country classid="IT" classname="Italy" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www.cnr.it/sitocnr/home.html</websiteurl>
+                        <legalshortname>CNR</legalshortname>
+                        <legalname>National Research Council</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::e3ff8a4f7e997273f2afafc70fa061b6</to>
+		                      <legalname>Masaryk University</legalname>
+                        <country classid="CZ" classname="Czechia" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>MU</legalshortname>
+                        <websiteurl>http://www.muni.cz/</websiteurl>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::e59bcb423af0ec2acb046ab4366505e7</to>
+		                      <country classid="CY" classname="Cyprus" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www.ucy.ac.cy/en/</websiteurl>
+                        <legalname>University of Cyprus</legalname>
+                        <legalshortname>UCY</legalshortname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::cee5e098366a24d1af6cc443f8a5c8c3</to>
+		                      <websiteurl>http://www.uni.lu</websiteurl>
+                        <country classid="LU" classname="Luxembourg" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>UNIVERSITE DU LUXEMBOURG</legalname>
+                        <legalshortname>uni.lu</legalshortname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::e23aa4d6d0e6cade62b7285270137b58</to>
+		                      <websiteurl>http://ktu.edu/en</websiteurl>
+                        <legalshortname>KTU</legalshortname>
+                        <country classid="LT" classname="Lithuania" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>Kaunas University of Technology</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::fa89471fbda7d0199c2d8cc62d54e599</to>
+		                      <country classid="UY" classname="Uruguay" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>CLARA</legalshortname>
+                        <legalname>COOPERACION LATINOAMERICANA DE REDES AVANZADAS</legalname>
+                        <websiteurl>http://www.redclara.net</websiteurl>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::d7c2b1e033b671d12ca3ade26826f8df</to>
+		                      <country classid="GR" classname="Greece" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>ETHNIKO IDRYMA EREVNON</legalname>
+                        <legalshortname>NATIONAL HELLENIC RESEARCH FOUNDATION EIE NHRFNATIONAL DOCUMENTATION CENTRE</legalshortname>
+                        <websiteurl>http://www.eie.gr</websiteurl>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::91c8b6c8f13302ffd22eb6f1b8bff826</to>
+		                      <legalshortname>CVTI SR</legalshortname>
+                        <country classid="SK" classname="Slovakia" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www.cvtisr.sk</websiteurl>
+                        <legalname>Centrum vedecko-technických informácií SR</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::a84aba997c184d09d629bcda1c0fe877</to>
+		                      <websiteurl>https://www.ugent.be/en</websiteurl>
+                        <country classid="BE" classname="Belgium" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>Ghent University</legalname>
+                        <legalshortname>Ghent University</legalshortname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::8b968a989d3303e5d082759cd0b26244</to>
+		                      <country classid="GB" classname="United Kingdom" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>https://www.jisc.ac.uk/</websiteurl>
+                        <legalshortname>Jisc</legalshortname>
+                        <legalname>Jisc</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::7f05ae78f0ffa2fafe017ef60488c7ca</to>
+		                      <country classid="ES" classname="Spain" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www.fecyt.es/</websiteurl>
+                        <legalshortname>FECYT</legalshortname>
+                        <legalname>Fundación Española para la Ciencia y Tecnología</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::862022fb67cf4844bb6b71c4de1dbc7e</to>
+		                      <legalname>Unitatea Executiva pentru Finantarea Invatamantului Superior, a Cercetarii, Dezvoltarii si Inovarii</legalname>
+                        <country classid="RO" classname="Romania" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>UEFISCDI</legalshortname>
+                        <websiteurl>http://www.uefiscdi.gov.ro</websiteurl>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::87da034b6c040e5310cc69a293b78e01</to>
+		                      <legalname>National University Hospital of Iceland</legalname>
+                        <legalshortname>National University Hospital of Iceland</legalshortname>
+                        <websiteurl>http://www.landspitali.is/um-landspitala/languages/english/</websiteurl>
+                        <country classid="IS" classname="Iceland" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::c6cd1677ea9f8311fdf02432984ddd98</to>
+		                      <legalshortname>University of Debrecen</legalshortname>
+                        <legalname>University of Debrecen</legalname>
+                        <websiteurl>http://www.unideb.hu/portal/en</websiteurl>
+                        <country classid="HU" classname="Hungary" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::b5e6e8edf1bd814a5a975bef03627651</to>
+		                      <country classid="GR" classname="Greece" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>Athena Research and Innovation Center In Information Communication &amp; Knowledge Technologies</legalshortname>
+                        <websiteurl>https://www.athena-innovation.gr/el/announce/pressreleases.html</websiteurl>
+                        <legalname>Athena Research and Innovation Center In Information Communication &amp; Knowledge Technologies</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::b6362bd04bf4d177572cec28e07334c7</to>
+		                      <legalshortname>TRINITY COLLEGE DUBLIN</legalshortname>
+                        <legalname>THE PROVOST, FELLOWS, FOUNDATION SCHOLARS &amp; THE OTHER MEMBERS OF BOARD OF THE COLLEGE OF THE HOLY &amp; UNDIVIDED TRINITY OF QUEEN ELIZABETH NEAR DUBLIN</legalname>
+                        <websiteurl>http://www.tcd.ie</websiteurl>
+                        <country classid="IE" classname="Ireland" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::7a5fd92202b25c147efb39f6f761c1cb</to>
+		                      <legalshortname>University of Konstanz</legalshortname>
+                        <websiteurl>http://www.uni-konstanz.de/en/welcome/</websiteurl>
+                        <country classid="DE" classname="Germany" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>University of Konstanz</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::98e99e8303b36c44be4a214cf2589029</to>
+		                      <legalname>University of Zurich</legalname>
+                        <legalshortname>UZH</legalshortname>
+                        <country classid="CH" classname="Switzerland" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www.uzh.ch/index_en.html</websiteurl>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::9a330344165b98bf2361bafd58cb5edc</to>
+		                      <legalshortname>UBO</legalshortname>
+                        <websiteurl>https://www.uni-bonn.de/</websiteurl>
+                        <legalname>Rheinische Friedrich-Wilhelms-Universität Bonn</legalname>
+                        <country classid="DE" classname="Germany" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::995c357be4d181730146d3674d9f8fde</to>
+		                      <country classid="GB" classname="United Kingdom" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>Open Library of Humanities</legalshortname>
+                        <websiteurl>http://www.openlibhums.org</websiteurl>
+                        <legalname>Open Library of Humanities</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::bca9345515ab48a98b9e9bea5834f6e4</to>
+		                      <legalshortname>Bielefeld University</legalshortname>
+                        <websiteurl>http://www.uni-bielefeld.de/(en)/</websiteurl>
+                        <legalname>Bielefeld University</legalname>
+                        <country classid="DE" classname="Germany" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::73338eca9420e8eba7f7652beb1ce3a0</to>
+		                      <legalshortname>RBI</legalshortname>
+                        <country classid="HR" classname="Croatia" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www.irb.hr/</websiteurl>
+                        <legalname>Rudjer Boskovic Institute</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::9cbd0dcfe9a0e4ccffb762993b354e2d</to>
+		                      <legalname>Edinburgh Napier University</legalname>
+                        <country classid="GB" classname="United Kingdom" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www.napier.ac.uk/alumni/Pages/home.aspx</websiteurl>
+                        <legalshortname>Edinburgh Napier University</legalshortname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::b069f6a63da68755d5ece5f9e289169c</to>
+		                      <websiteurl>http://www.uw.edu.pl</websiteurl>
+                        <legalname>UNIWERSYTET WARSZAWSKI</legalname>
+                        <country classid="PL" classname="Poland" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>UNIWARSAW</legalshortname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::a6d5602a15379c64371ffcae887d1ab8</to>
+		                      <country classid="FI" classname="Finland" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www.helsinki.fi</websiteurl>
+                        <legalname>HELSINGIN YLIOPISTO</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::a4360566b89ecc0a2bc599011c56434e</to>
+		                      <country classid="GR" classname="Greece" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>ELLINOGERMANIKI AGOGI S.A.</legalshortname>
+                        <legalname>ELLINOGERMANIKI AGOGI SCHOLI PANAGEA SAVVA AE</legalname>
+                        <websiteurl>http://www.ea.gr</websiteurl>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::134c4ff7cb4482926c429940db621dcf</to>
+		                      <legalname>Bar-Ilan University</legalname>
+                        <legalshortname>BIU</legalshortname>
+                        <country classid="IL" classname="Israel" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www1.biu.ac.il/indexE.php</websiteurl>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::167501e5a13383892b27b4948457b4a4</to>
+		                      <websiteurl>http://www.ut.ee/et</websiteurl>
+                        <legalname>University of Tartu</legalname>
+                        <country classid="EE" classname="Estonia" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>UT</legalshortname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::2c80a621b4c6fbd7ac305e148f03d330</to>
+		                      <country classid="NL" classname="Netherlands" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>Delft University of Technology</legalname>
+                        <legalshortname>Delft University of Technology</legalshortname>
+                        <websiteurl>http://www.tudelft.nl/en/</websiteurl>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::2418ce303fbf37c9214fb716d0533b6e</to>
+		                      <legalshortname>CERN</legalshortname>
+                        <country classid="CH" classname="Switzerland" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://home.web.cern.ch/</websiteurl>
+                        <legalname>CERN</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::1d56f2b6918850844234be9ce33a722c</to>
+		                      <country classid="GB" classname="United Kingdom" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>University of Glasgow</legalshortname>
+                        <websiteurl>http://www.gla.ac.uk/</websiteurl>
+                        <legalname>University of Glasgow</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::1ee407eb7b04e7da0f27b978d7304397</to>
+		                      <country classid="MT" classname="Malta" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalname>University of Malta</legalname>
+                        <legalshortname>University of Malta</legalshortname>
+                        <websiteurl>http://www.um.edu.mt/</websiteurl>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::1af860c945e7687c63d9a2ecbdd39cbb</to>
+		                      <legalname>STICHTING EIFL.NET</legalname>
+                        <websiteurl>http://www.eifl.net</websiteurl>
+                        <country classid="NL" classname="Netherlands" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>EIFL</legalshortname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::0b78dce667161f3638c869b7b2b69511</to>
+		                      <legalname>GEORG-AUGUST-UNIVERSITAT GOTTINGENSTIFTUNG OFFENTLICHEN RECHTS</legalname>
+                        <websiteurl>http://www.uni-goettingen.de</websiteurl>
+                        <country classid="DE" classname="Germany" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <legalshortname>UGOE</legalshortname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::0c796dc11366e852f3d1b86c0ce2e3a6</to>
+		                      <country classid="PT" classname="Portugal" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+                        <websiteurl>http://www.uminho.pt/en</websiteurl>
+                        <legalshortname>University of Minho</legalshortname>
+                        <legalname>University of Minho</legalname>
+		                   </rel>
+                     <rel inferred="true" trust="0.9" inferenceprovenance=""
+                          provenanceaction="sysimport:crosswalk:entityregistry">
+		                      <to class="hasParticipant" scheme="dnet:project_organization_relations"
+                            type="organization">dedup_wf_001::0e322814265a9c03dbae8821e6c69a04</to>
+		                      <legalshortname>KB</legalshortname>
+                        <websiteurl>http://www.kb.se/</websiteurl>
+                        <legalname>National Library of Sweden</legalname>
+                        <country classid="SE" classname="Sweden" schemeid="dnet:countries"
+                                 schemename="dnet:countries"/>
+		                   </rel>
+		                </rels>
+		                <children>
+		  </children>
+		             </oaf:project>
+
+            </oaf:entity>
+         </metadata>
+      </result>
+						</results>
+	  <browseResults>
+								</browseResults>
+</response>

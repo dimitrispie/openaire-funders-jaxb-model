@@ -1,0 +1,267 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+	xmlns="http://namespace.openaire.eu/oaf" targetNamespace="http://namespace.openaire.eu/oaf">
+
+	<xs:annotation>
+		<xs:documentation>This schema describes elements and properties of the OpenAIRE Result
+			entity:
+			https://issue.openaire.research-infrastructures.eu/projects/openaire2020-wiki/wiki/Core_entity_result
+			that includes Publication and Dataset entities. </xs:documentation>
+	</xs:annotation>
+
+	<xs:include schemaLocation="oaf-common-1.0.xsd"/>
+
+	<xs:element name="result">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="title" type="xs:string">
+					<xs:annotation>
+						<xs:documentation> Title of this research result. <p>Different types of
+								titles are allowed: see http://api.openaire.eu/vocabularies/dnet:dataCite_title</p>
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="dateofacceptance" type="xs:string"/>
+				<xs:element name="publisher" type="xs:string"/>
+				<xs:element name="description" type="xs:string"/>
+				<xs:element name="pid" type="typedElementType">
+					<xs:annotation>
+						<xs:documentation> Persistent identifier. <p>For allowed pid systems check:
+								http://api.openaire.eu/vocabularies/dnet:pid_types </p>
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="language" type="controlledElementType">
+					<xs:annotation>
+						<xs:documentation> Language in ISO 639-2.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="relevantdate" type="xs:string"/>
+				<xs:element name="subject" type="typedElementType"/>
+				<xs:element name="resulttype" type="xs:string">
+					<xs:annotation>
+						<xs:documentation> Tells if this record is about a publication or a dataset.
+								<p>For allowed values check:
+								http://api.openaire.eu/vocabularies/dnet:result_typologies </p>
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+
+				<xs:element name="journal" type="journalType"/>
+
+				<xs:element name="source" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>The semantics of this field is inherited from dc:source in
+							Dublin Core. </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="country" type="controlledElementType"/>
+
+				<xs:element name="embargoenddate" type="xs:string"/>
+				<xs:element name="resourcetype" type="xs:string">
+					<xs:annotation>
+						<xs:documentation> This field is valid only if resulttype is "dataset". It
+							expresses the nature of the dataset. <p>For allowed values check:
+								http://api.openaire.eu/vocabularies/dnet:publication_resource </p>
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="device" type="xs:string">
+					<xs:annotation>
+						<xs:documentation> This field is valid only if resulttype is "dataset". It
+							contains information about the device used to generate the dataset.
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="size" type="xs:string">
+					<xs:annotation>
+						<xs:documentation> This field is valid only if resulttype is "dataset". It
+							contains information about the size of the dataset. </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="format" type="xs:string">
+					<xs:annotation>
+						<xs:documentation> This field is valid only if resulttype is "dataset". It
+							contains information about the format of the dataset.
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="version" type="xs:string">
+					<xs:annotation>
+						<xs:documentation> This field is valid only if resulttype is "dataset". It
+							contains information about the version of the dataset.
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="lastmetadataupdate" type="xs:string">
+					<xs:annotation>
+						<xs:documentation> This field is valid only if resulttype is "dataset". It
+							is the last update date of the metadata of the dataset.
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="metadataversionnumber" type="xs:string">
+					<xs:annotation>
+						<xs:documentation> This field is valid only if resulttype is "dataset". It
+							contains information about the version of the metadata of the dataset.
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="originalId" type="xs:string" maxOccurs="unbounded"/>
+				<xs:element name="collectedfrom" type="namedIdElementType" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Identifier and name of the datasource from which this
+							result has been collected from (e.g., "OpenDOAR"). </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="bestlicense" type="controlledElementType">
+					<xs:annotation>
+						<xs:documentation> The best license available for this result among the
+							available licenses of its children elements. <p>For allowed values
+								check: http://api.openaire.eu/vocabularies/dnet:access_modes </p>
+						</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="community" type="communityType">
+					<xs:annotation>
+						<xs:documentation>Research community related to this entity.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<!--<xs:element name="datainfo" type="datainfoType"/> -->
+				<xs:element name="rels" type="relsType">
+					<xs:annotation>
+						<xs:documentation>Relationships to other entities. </xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="instances" type="instancesType" minOccurs="1" maxOccurs="1"/>
+
+				<xs:element name="citations" type="citationsType" maxOccurs="1" minOccurs="0"/>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="citationsType">
+		<xs:sequence>
+			<xs:element name="citation" maxOccurs="unbounded" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="rawText"/>
+						<xs:element name="id" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="value"/>
+								<xs:attribute name="type"/>
+								<xs:attribute name="confidenceLevel"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="provenance" type="xs:string"/>
+		<xs:attribute name="trust" type="xs:string"/>
+	</xs:complexType>
+
+	<xs:complexType name="journalType">
+		<xs:annotation>
+			<xs:documentation>Journal where the publication has been published. Attributes refer to
+				electronic, printed and linking (ISSN-L) ISSN. This field is applicable when
+				resulttype is "publication". </xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="eissn" use="optional"/>
+				<xs:attribute name="issn" use="optional"/>
+				<xs:attribute name="lissn" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<!-- <oaf:context id="egi" label="EGI" type="community">
+            <oaf:category id="egi::virtual" label="EGI virtual organizations">
+                <oaf:concept id="egi::virtual::2" label="alice"/>
+            </oaf:category>
+        </oaf:context>
+         <oaf:community id="{@id}" label="{@label}">
+            <xsl:apply-templates/>
+        </oaf:community>
+	-->
+	<xs:complexType name="communityType">
+		<xs:complexContent>
+			<xs:extension base="labeledIdElementType">
+				<xs:sequence maxOccurs="unbounded">
+					<xs:element name="category" type="categoryType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="categoryType">
+		<xs:complexContent>
+			<xs:extension base="labeledIdElementType">
+				<xs:sequence minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="concept" type="conceptType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="conceptType">
+		<xs:complexContent>
+			<xs:extension base="labeledIdElementType">
+				<xs:sequence maxOccurs="unbounded" minOccurs="0">
+					<xs:element name="concept" type="conceptType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="instancesType">
+		<xs:sequence>
+			<xs:element name="instance" type="instanceType" minOccurs="1" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Actual digital representation of the publication or dataset.
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="externalreference" type="externalreferenceType" minOccurs="0"
+				maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="instanceType">
+		<xs:choice maxOccurs="unbounded">
+			<xs:element name="licence" type="controlledElementType">
+				<xs:annotation>
+					<xs:documentation> License to access this actual manifestation of the
+						publication or dataset. <p>For allowed values check:
+							http://api.openaire.eu/vocabularies/dnet:access_modes </p>
+						<p>When several instances are available for the same publication, the opener
+							license is selected as the bestlicese field in element result. </p>
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="instancetype" type="xs:string">
+				<xs:annotation>
+					<xs:documentation> Type of the instance, for example: article, thesis, etc.
+							<p>For allowed values check: http://api.openaire.eu/vocabularies/dnet:publication_resource
+						</p>
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="hostedby" type="namedIdElementType" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>Datasource hosting this file. </xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="webresource" type="webresourceType" minOccurs="1"
+				maxOccurs="unbounded"/>
+		</xs:choice>
+		<xs:attribute name="id" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="webresourceType">
+		<xs:sequence>
+			<xs:element name="url" type="xs:string" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>
