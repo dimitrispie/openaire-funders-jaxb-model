@@ -1,4 +1,4 @@
-# ORCID-Model
+# OpenAIRE Funders Model
 
 This repository contains the data model used in the OpenAIRE Funders API.
 
